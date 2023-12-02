@@ -4,7 +4,6 @@ function sortedFrequency(arr, tgt) {
     // the outer ones will be one less/greater, pointing to non-tgts or outside the array
     const pointers = [-1, -1, arr.length, arr.length];
     let i;
-    let count
     
     // first we do a binary search for tgt
     count = 0;
